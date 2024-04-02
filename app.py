@@ -30,8 +30,8 @@ def generate_password(username, website, num_small, num_big, num_special):
     st.success("Password generated successfully")
     st.write("Generated Password:", password)
 
-    # Copy password to clipboard
-    copy_password(password)
+    # # Copy password to clipboard
+    # copy_password(password)
 
     # Store password
     if st.session_state.store_password_option == "Yes" and password:
@@ -39,10 +39,10 @@ def generate_password(username, website, num_small, num_big, num_special):
 
     return password
 
-# Function to copy password to clipboard
-def copy_password(password):
-    pyperclip.copy(password)
-    st.success("Password copied to clipboard")
+# # Function to copy password to clipboard
+# def copy_password(password):
+#     pyperclip.copy(password)
+#     st.success("Password copied to clipboard")
 
 # Function to store password
 def store_password(username, website, password):
