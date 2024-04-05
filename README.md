@@ -34,11 +34,15 @@ This is a simple Streamlit web application that generates random passwords based
 1. Clone this repository to your local machine.
 2. Install the required dependencies listed in `requirements.txt` using pip:
 
-- pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 3. Run the application using the following command:
-
+   
+```bash
 streamlit run app.py
+```
 
 4. Enter the username, website, and desired characteristics of the password (number of small alphabets, big alphabets, special characters).
 5. Click on the "Generate Password" button to generate the password.
