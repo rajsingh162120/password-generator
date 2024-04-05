@@ -56,9 +56,9 @@ streamlit run app.py
 - Pandas
 - Pyperclip (optional, for copying passwords to clipboard)
 
-```plaintext
-[Password-generator](http://password-generator1.streamlit.app/)
-```
+## Website Link
+
+[password-generator](https://password-generator1.streamlit.app)
 
 ## License
 
