@@ -56,6 +56,10 @@ streamlit run app.py
 - Pandas
 - Pyperclip (optional, for copying passwords to clipboard)
 
+```plaintext
+[Password-generator](http://password-generator1.streamlit.app/)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
